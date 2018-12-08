@@ -1,0 +1,11 @@
+C:\Users\logonrmlocal\source\repos\Lojinha\Lojinha\bin\Release\netcoreapp2.0\Lojinha.deps.json
+C:\Users\logonrmlocal\source\repos\Lojinha\Lojinha\bin\Release\netcoreapp2.0\Lojinha.runtimeconfig.json
+C:\Users\logonrmlocal\source\repos\Lojinha\Lojinha\bin\Release\netcoreapp2.0\Lojinha.runtimeconfig.dev.json
+C:\Users\logonrmlocal\source\repos\Lojinha\Lojinha\bin\Release\netcoreapp2.0\Lojinha.dll
+C:\Users\logonrmlocal\source\repos\Lojinha\Lojinha\bin\Release\netcoreapp2.0\Lojinha.pdb
+C:\Users\logonrmlocal\source\repos\Lojinha\Lojinha\obj\Release\netcoreapp2.0\Lojinha.csprojAssemblyReference.cache
+C:\Users\logonrmlocal\source\repos\Lojinha\Lojinha\obj\Release\netcoreapp2.0\Lojinha.csproj.CoreCompileInputs.cache
+C:\Users\logonrmlocal\source\repos\Lojinha\Lojinha\obj\Release\netcoreapp2.0\Lojinha.AssemblyInfoInputs.cache
+C:\Users\logonrmlocal\source\repos\Lojinha\Lojinha\obj\Release\netcoreapp2.0\Lojinha.AssemblyInfo.cs
+C:\Users\logonrmlocal\source\repos\Lojinha\Lojinha\obj\Release\netcoreapp2.0\Lojinha.dll
+C:\Users\logonrmlocal\source\repos\Lojinha\Lojinha\obj\Release\netcoreapp2.0\Lojinha.pdb
