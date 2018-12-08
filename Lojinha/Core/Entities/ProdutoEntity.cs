@@ -8,6 +8,11 @@ namespace Lojinha.Core.Entities
 {
     public class ProdutoEntity: TableEntity
     {
+        public ProdutoEntity()
+        {
+
+        }
+
         public ProdutoEntity(string partitionKey, string rowKey)
             : base(partitionKey, rowKey)
         {

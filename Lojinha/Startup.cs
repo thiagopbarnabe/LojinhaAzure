@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
+using Lojinha.Core.Services;
+using Lojinha.Infrastructure.Mappings;
+using Lojinha.Infrastructure.Redis;
 using Lojinha.Infrastructure.Storage;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.AzureAD.UI;
@@ -33,7 +37,16 @@ namespace Lojinha
 
             services.AddAuthentication(AzureADDefaults.AuthenticationScheme)
                 .AddAzureAD(options => Configuration.Bind("AzureAd", options));
+            services.AddSingleton<IRedisCache, RedisCache>();
+            services.AddScoped<IProdutoServices, ProdutoServices>();
             services.AddScoped<IAzureStorage, AzureStorage>();
+            services.AddScoped<ICarrinhoService, CarrinhoService>();
+            
+
+            Mapper.Initialize(options => options.AddProfile<ProdutoProfile>());
+
+            services.AddAutoMapper();
+
             services.AddMvc();
         }
 

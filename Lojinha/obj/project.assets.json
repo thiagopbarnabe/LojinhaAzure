@@ -2728,19 +2728,6 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "Pipelines.Sockets.Unofficial/1.0.7": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.4.0",
-          "System.IO.Pipelines": "4.5.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Pipelines.Sockets.Unofficial.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Pipelines.Sockets.Unofficial.dll": {}
-        }
-      },
       "popper.js/1.14.0": {
         "type": "package"
       },
@@ -3081,21 +3068,6 @@
           "lib/netstandard1.1/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
-      "StackExchange.Redis/2.0.519": {
-        "type": "package",
-        "dependencies": {
-          "Pipelines.Sockets.Unofficial": "1.0.7",
-          "System.Diagnostics.PerformanceCounter": "4.5.0",
-          "System.IO.Pipelines": "4.5.1",
-          "System.Threading.Channels": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/StackExchange.Redis.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/StackExchange.Redis.dll": {}
-        }
-      },
       "StackExchange.Redis.StrongName/1.2.4": {
         "type": "package",
         "dependencies": {
@@ -3236,19 +3208,6 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "System.Configuration.ConfigurationManager/4.5.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Security.Cryptography.ProtectedData": "4.5.0",
-          "System.Security.Permissions": "4.5.0"
-        },
-        "compile": {
-          "ref/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
-        }
-      },
       "System.Console/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3341,28 +3300,6 @@
             "rid": "unix"
           },
           "runtimes/win/lib/netstandard1.3/System.Diagnostics.FileVersionInfo.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
-      "System.Diagnostics.PerformanceCounter/4.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
-          "Microsoft.Win32.Registry": "4.5.0",
-          "System.Configuration.ConfigurationManager": "4.5.0",
-          "System.Memory": "4.5.0",
-          "System.Security.Principal.Windows": "4.5.0"
-        },
-        "compile": {
-          "ref/netstandard2.0/System.Diagnostics.PerformanceCounter.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -3575,19 +3512,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
-        }
-      },
-      "System.IO.Pipelines/4.5.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.1",
-          "System.Threading.Tasks.Extensions": "4.5.1"
-        },
-        "compile": {
-          "ref/netstandard1.3/System.IO.Pipelines.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.IO.Pipelines.dll": {}
         }
       },
       "System.Linq/4.3.0": {
@@ -4351,24 +4275,6 @@
           "lib/netstandard1.3/System.Security.Cryptography.Primitives.dll": {}
         }
       },
-      "System.Security.Cryptography.ProtectedData/4.5.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.0"
-        },
-        "compile": {
-          "ref/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
       "System.Security.Cryptography.X509Certificates/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4544,18 +4450,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Threading.dll": {}
-        }
-      },
-      "System.Threading.Channels/4.5.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Threading.Tasks.Extensions": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/System.Threading.Channels.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Threading.Channels.dll": {}
         }
       },
       "System.Threading.Tasks/4.3.0": {
@@ -7858,24 +7752,6 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
-    "Pipelines.Sockets.Unofficial/1.0.7": {
-      "sha512": "hTcF8OrTXJYFkJuu3ZwPLnXZdhHrd5CIGEJSZxXLdsX7lDApssIq5XpV8/Lobxu99nmVE6BMZKFnHDg0U29IEA==",
-      "type": "package",
-      "path": "pipelines.sockets.unofficial/1.0.7",
-      "files": [
-        ".signature.p7s",
-        "lib/net461/Pipelines.Sockets.Unofficial.dll",
-        "lib/net461/Pipelines.Sockets.Unofficial.xml",
-        "lib/net472/Pipelines.Sockets.Unofficial.dll",
-        "lib/net472/Pipelines.Sockets.Unofficial.xml",
-        "lib/netcoreapp2.1/Pipelines.Sockets.Unofficial.dll",
-        "lib/netcoreapp2.1/Pipelines.Sockets.Unofficial.xml",
-        "lib/netstandard2.0/Pipelines.Sockets.Unofficial.dll",
-        "lib/netstandard2.0/Pipelines.Sockets.Unofficial.xml",
-        "pipelines.sockets.unofficial.1.0.7.nupkg.sha512",
-        "pipelines.sockets.unofficial.nuspec"
-      ]
-    },
     "popper.js/1.14.0": {
       "sha512": "oamtAIKoHa/s45chV0TozJhrwTRUBURUVjFl1wHw1MrCplFDxmK41CMrMDQx1Eq08n7oEzqSHEPPWCdA6Mhb1w==",
       "type": "package",
@@ -8313,22 +8189,6 @@
         "sqlitepclraw.provider.e_sqlite3.netstandard11.nuspec"
       ]
     },
-    "StackExchange.Redis/2.0.519": {
-      "sha512": "ugpaC1zkgN3v6JZ6tMqSgRfElx9qe1nbnziftk91qefMhEo0sEUcfJsIuBLlioE28JSOsu8FOqXMtLD1e8rrZw==",
-      "type": "package",
-      "path": "stackexchange.redis/2.0.519",
-      "files": [
-        ".signature.p7s",
-        "lib/net461/StackExchange.Redis.dll",
-        "lib/net461/StackExchange.Redis.xml",
-        "lib/net472/StackExchange.Redis.dll",
-        "lib/net472/StackExchange.Redis.xml",
-        "lib/netstandard2.0/StackExchange.Redis.dll",
-        "lib/netstandard2.0/StackExchange.Redis.xml",
-        "stackexchange.redis.2.0.519.nupkg.sha512",
-        "stackexchange.redis.nuspec"
-      ]
-    },
     "StackExchange.Redis.StrongName/1.2.4": {
       "sha512": "qrfSB1BnmM17V20A4yvvNA0HNiDgnBd/CcjaeMKMA4qtup1uuBUMyhl20oj31fRVo71E/fXTbmQCuM9ytBJs6w==",
       "type": "package",
@@ -8740,26 +8600,6 @@
         "version.txt"
       ]
     },
-    "System.Configuration.ConfigurationManager/4.5.0": {
-      "sha512": "+2SYYKwbN0n+9SrBanflZdaVleFkytEfTNzOu+f3SK0vROMMrorpw1UJyHJQ1ZooughRxPmLj8Fh5N2tSe7sdA==",
-      "type": "package",
-      "path": "system.configuration.configurationmanager/4.5.0",
-      "files": [
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Configuration.ConfigurationManager.dll",
-        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
-        "ref/net461/System.Configuration.ConfigurationManager.dll",
-        "ref/net461/System.Configuration.ConfigurationManager.xml",
-        "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
-        "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
-        "system.configuration.configurationmanager.4.5.0.nupkg.sha512",
-        "system.configuration.configurationmanager.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Console/4.3.0": {
       "sha512": "DHDrIxiqk1h03m6khKWV2X8p/uvN79rgSqpilL6uzpmSfxfU5ng8VcPtW4qsDsQDHiTv6IPV9TmD5M/vElPNLg==",
       "type": "package",
@@ -9048,39 +8888,6 @@
         "runtimes/win/lib/netstandard1.3/System.Diagnostics.FileVersionInfo.dll",
         "system.diagnostics.fileversioninfo.4.3.0.nupkg.sha512",
         "system.diagnostics.fileversioninfo.nuspec"
-      ]
-    },
-    "System.Diagnostics.PerformanceCounter/4.5.0": {
-      "sha512": "a5vOZXb+Km4KoSKYr64QY2NkGS+MbRLOd88SSjPF3UkyiNp+7tJbsKxokoOvvIlHMFQDkL4NTkwUA7FlhjK+hg==",
-      "type": "package",
-      "path": "system.diagnostics.performancecounter/4.5.0",
-      "files": [
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net461/System.Diagnostics.PerformanceCounter.dll",
-        "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net461/System.Diagnostics.PerformanceCounter.dll",
-        "ref/net461/System.Diagnostics.PerformanceCounter.xml",
-        "ref/netstandard2.0/System.Diagnostics.PerformanceCounter.dll",
-        "ref/netstandard2.0/System.Diagnostics.PerformanceCounter.xml",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll",
-        "system.diagnostics.performancecounter.4.5.0.nupkg.sha512",
-        "system.diagnostics.performancecounter.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "System.Diagnostics.StackTrace/4.3.0": {
@@ -9735,27 +9542,6 @@
         "ref/xamarinwatchos10/_._",
         "system.io.filesystem.primitives.4.3.0.nupkg.sha512",
         "system.io.filesystem.primitives.nuspec"
-      ]
-    },
-    "System.IO.Pipelines/4.5.1": {
-      "sha512": "o2i4j7WotG7K1BZlOW9iPjyfOrZEU7WRO/l1Chj1CVjV9U7XUqDciv1NQ21Wu8saIchin+aM6DzayH/M0ONcFg==",
-      "type": "package",
-      "path": "system.io.pipelines/4.5.1",
-      "files": [
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp2.1/System.IO.Pipelines.dll",
-        "lib/netcoreapp2.1/System.IO.Pipelines.xml",
-        "lib/netstandard1.3/System.IO.Pipelines.dll",
-        "lib/netstandard1.3/System.IO.Pipelines.xml",
-        "lib/netstandard2.0/System.IO.Pipelines.dll",
-        "lib/netstandard2.0/System.IO.Pipelines.xml",
-        "ref/netstandard1.3/System.IO.Pipelines.dll",
-        "system.io.pipelines.4.5.1.nupkg.sha512",
-        "system.io.pipelines.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "System.Linq/4.3.0": {
@@ -11734,46 +11520,6 @@
         "system.security.cryptography.primitives.nuspec"
       ]
     },
-    "System.Security.Cryptography.ProtectedData/4.5.0": {
-      "sha512": "s/MFK8BvgtejZj5a8qAPDXEGBtWkpFX98qwQP/wqVa9CgIC7LrKHxDFdlN5x6afGAb0ZVBVGIZlCdBLnO2QjZw==",
-      "type": "package",
-      "path": "system.security.cryptography.protecteddata/4.5.0",
-      "files": [
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Security.Cryptography.ProtectedData.dll",
-        "lib/net461/System.Security.Cryptography.ProtectedData.dll",
-        "lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
-        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net46/System.Security.Cryptography.ProtectedData.dll",
-        "ref/net461/System.Security.Cryptography.ProtectedData.dll",
-        "ref/net461/System.Security.Cryptography.ProtectedData.xml",
-        "ref/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
-        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
-        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/win/lib/net46/System.Security.Cryptography.ProtectedData.dll",
-        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.dll",
-        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
-        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
-        "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
-        "system.security.cryptography.protecteddata.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Security.Cryptography.X509Certificates/4.3.0": {
       "sha512": "t2Tmu6Y2NtJ2um0RtcuhP7ZdNNxXEgUm2JeoA/0NvlMjAhKCnM1NX07TDl3244mVp3QU6LPEhT3HTtH1uF7IYw==",
       "type": "package",
@@ -12312,26 +12058,6 @@
         "runtimes/aot/lib/netcore50/System.Threading.dll",
         "system.threading.4.3.0.nupkg.sha512",
         "system.threading.nuspec"
-      ]
-    },
-    "System.Threading.Channels/4.5.0": {
-      "sha512": "61eqqmreCig10E4OhJ0/6VaoxR5DR0s+YcerLeP4I36Ua5I9F+AH4UVFfpccUnu2QWDqZvqCPhsMvOIZGlYSZA==",
-      "type": "package",
-      "path": "system.threading.channels/4.5.0",
-      "files": [
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp2.1/System.Threading.Channels.dll",
-        "lib/netcoreapp2.1/System.Threading.Channels.xml",
-        "lib/netstandard1.3/System.Threading.Channels.dll",
-        "lib/netstandard1.3/System.Threading.Channels.xml",
-        "lib/netstandard2.0/System.Threading.Channels.dll",
-        "lib/netstandard2.0/System.Threading.Channels.xml",
-        "system.threading.channels.4.5.0.nupkg.sha512",
-        "system.threading.channels.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "System.Threading.Tasks/4.3.0": {
@@ -13016,7 +12742,6 @@
       "Microsoft.AspNetCore.Authentication.AzureAD.UI >= 2.2.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "Newtonsoft.Json >= 12.0.1",
-      "StackExchange.Redis >= 2.0.519",
       "WindowsAzure.Storage >= 9.3.3",
       "bootstrap >= 4.1.3"
     ]
@@ -13086,10 +12811,6 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.1, )"
-          },
-          "StackExchange.Redis": {
-            "target": "Package",
-            "version": "[2.0.519, )"
           },
           "WindowsAzure.Storage": {
             "target": "Package",
